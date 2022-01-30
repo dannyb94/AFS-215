@@ -9,3 +9,20 @@
 # Get “Pepsi” when passed a 6 (a multiple of 3)
 # Get “Coke” when passed a 10 (a multiple of 5)
 # Get “PepsiCoke” when passed a 15 (a multiple of 3 and 5)
+
+def single(num):
+    if (num == 3) * (num == 5):
+        return 'PepsiCoke'
+    else:
+        if num == 1:
+            return 1
+        elif num == 2:
+            return 2
+        elif (num % 3) == 0:
+            return 'Pepsi'
+        elif (num % 5) == 0:
+            return'Coke'
+
+
+num = int(input('Enter a number: '))
+print(single(num))
