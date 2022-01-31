@@ -11,7 +11,7 @@
 # Get “PepsiCoke” when passed a 15 (a multiple of 3 and 5)
 
 def single(num):
-    if (num == 3) * (num == 5):
+    if (num % 3)== 0 and (num % 5)== 0:
         return 'PepsiCoke'
     else:
         if num == 1:
