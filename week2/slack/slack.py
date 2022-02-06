@@ -8,10 +8,10 @@ def test_answer():
 
 
 
-# def f():
-#     raise SystemExit(1)
+def f():
+    raise SystemExit(1)
 
 
-# def test_mytest():
-#     with pytest.raises(SystemExit):
-#         f()
+def test_mytest():
+    with pytest.raises(SystemExit):
+        f()
