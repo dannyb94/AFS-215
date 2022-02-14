@@ -26,10 +26,6 @@ module.exports = class User {
         return `Hi ${this.userName}. You are ${this.userAge} years old.`
     }
 
-    // dataType = (arg) => {
-    //     return `${arg} is a ${typeof(arg)}.`
-    // }
-
     strDataType = (nums) => {
         let change = String(nums)
         return change
