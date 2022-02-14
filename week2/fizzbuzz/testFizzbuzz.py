@@ -1,5 +1,6 @@
 import pytest
 
+
 def single(x):
     if (x % 3) == 0 and (x % 5) == 0:
         return 'PepsiCoke'
@@ -12,6 +13,7 @@ def single(x):
             return 'Pepsi'
         elif (x % 5) == 0:
             return 'Coke'
+
 
 def test_run():
     assert single(1) == 1
