@@ -1,4 +1,4 @@
-// Add an item of any data type to the array.
+    // Add an item of any data type to the array.
 // Call the array.
 // Remove specific items from the array.
 // Search the array for a specific item. If the item exists, return true(boolean). If not, provide an error message.
