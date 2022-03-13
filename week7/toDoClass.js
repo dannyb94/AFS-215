@@ -8,11 +8,6 @@ module.exports = class Todo{
         return this.list
     }
 
-    addMul = (item) => {
-        this.list.push(...Object.values(item))
-        return this.list
-    }
-
     remove = (item) => {
         this.list = this.list.filter((find) => find != item)
         return this.list
